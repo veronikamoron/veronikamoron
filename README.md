@@ -25,7 +25,5 @@ Coming from a strong scientific background, I design and build data-driven produ
 
 ### 📌 Featured Project
 
-#### 🎤 [Pitch Deck Analyzer](https://pitchdeckanalyzer-grrajtbreiwpa5lmdzu9t3.streamlit.app)
-> AI-powered web app that analyzes startup pitch decks using LLM pipelines.  
-> Built with Python, Streamlit & LLM APIs. Live demo available ↓  
-> **[▶ Try the Live App](https://pitchdeckanalyzer-grrajtbreiwpa5lmdzu9t3.streamlit.app)**
+- ⚡ **[VC Pulse – AI Pitch Deck Analyzer](https://pitch-deck-analyzer.streamlit.app)** — KI-gestützter Pitch-Deck-Analyzer mit VC-Persona-Sparring, Scoring und Notion-Export
+  - 🔗 [GitHub Repo](https://github.com/veronikamoron/ai-founders-master-konzept)
