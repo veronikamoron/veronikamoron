@@ -23,7 +23,7 @@ Coming from a strong scientific background, I design and build data-driven produ
 
 ---
 
-### 📌 Featured Project
+### 📌 Featured Projects
 
 - ⚡ **[VC Pulse – AI Pitch Deck Analyzer](https://pitch-deck-analyzer.streamlit.app)** — KI-gestützter Pitch-Deck-Analyzer mit VC-Persona-Sparring, Scoring und Notion-Export
   - 🔗 [GitHub Repo](https://github.com/veronikamoron/ai-founders-master-konzept)
