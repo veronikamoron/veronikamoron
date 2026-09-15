@@ -28,4 +28,5 @@ Coming from a strong scientific background, I design and build data-driven produ
 - ⚡ **[VC Pulse – AI Pitch Deck Analyzer](https://pitch-deck-analyzer.streamlit.app)** — KI-gestützter Pitch-Deck-Analyzer mit VC-Persona-Sparring, Scoring und Notion-Export
   - 🔗 [GitHub Repo](https://github.com/veronikamoron/ai-founders-master-konzept)
 
-🔬 [ArXivLens – Academic Research Studio](https://github.com/veronikamoron/arxivlens) — Production-Grade Hybrid RAG (Dense + BM25 + FlashRank Re-Ranking) für arXiv-Papers mit 100% Free-Tier Gemini Stack & halluzinationsfreien Zitaten 🔗 [GitHub Repo](https://github.com/veronikamoron/arxivlens)
+- 🔬 **[ArXivLens – Academic Research Studio](https://github.com/veronikamoron/arxivlens)** — Production-Grade Hybrid RAG (Dense + BM25 + FlashRank Re-Ranking) für arXiv-Papers mit 100% Free-Tier Gemini Stack & halluzinationsfreien Zitaten
+  - 🔗[GitHub Repo](https://github.com/veronikamoron/arxivlens)
