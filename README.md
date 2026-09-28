@@ -17,16 +17,19 @@ Coming from a strong scientific background, I design and build data-driven produ
 
 ### 🛠️ Tech & PM Toolkit
 
-`Python` `n8n` `LLM APIs` `Prompt Engineering` `Agentic Workflows` `Cursor`  
-`REST APIs` `Git` `Power BI` `R` `MATLAB` `Bash`  
+`Python` `GraphRAG` `FastAPI` `Three.js` `n8n` `LLM APIs` `Prompt Engineering` `Agentic Workflows`  
+`Vector DBs (ChromaDB)` `REST APIs` `Git` `Power BI` `R` `MATLAB` `Bash`  
 `Jira` `Confluence` `Agile/Scrum` `RICE` `OKRs` `User Story Mapping`
 
 ---
 
 ### 📌 Featured Projects
 
+- 🧠 **[NeuroGraph – 3D Brain Connectivity GraphRAG](https://veronikamoron.github.io/neurograph/)** — GraphRAG-System für komplexe Multi-Hop-Neuroscience-Abfragen (NetworkX + ChromaDB + Gemini) mit interaktiver 3D-WebGL-Connectome-Visualisierung (Three.js) & integriertem Demo-Simulator
+  - 🔗 [GitHub Repo](https://github.com/veronikamoron/neurograph)
+
 - ⚡ **[VC Pulse – AI Pitch Deck Analyzer](https://pitch-deck-analyzer.streamlit.app)** — KI-gestützter Pitch-Deck-Analyzer mit VC-Persona-Sparring, Scoring und Notion-Export
   - 🔗 [GitHub Repo](https://github.com/veronikamoron/ai-founders-master-konzept)
 
 - 🔬 **[ArXivLens – Academic Research Studio](https://arxivlens-studio.streamlit.app)** — Production-Grade Hybrid RAG (Dense + BM25 + FlashRank Re-Ranking) für arXiv-Papers mit 100% Free-Tier Gemini Stack & halluzinationsfreien Zitaten
-  - 🔗[GitHub Repo](https://github.com/veronikamoron/arxivlens)
+  - 🔗 [GitHub Repo](https://github.com/veronikamoron/arxivlens)
