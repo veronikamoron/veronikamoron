@@ -1,6 +1,6 @@
 # Hi, I'm Veronika 👋
 
-**Technical & AI Product Manager** | M.Sc. Computational Biology & Neuroscience (1.1) | Berlin → Freiburg
+**Technical & AI Product Manager** | M.Sc. Neuroscience (1.1) | Berlin → Freiburg
 
 I bridge the gap between **complex AI systems, user needs, and business value**.  
 Coming from a strong scientific background, I design and build data-driven products at the intersection of **Agentic AI, Healthcare Tech, and Product Management**.
