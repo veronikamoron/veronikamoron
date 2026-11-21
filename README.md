@@ -8,8 +8,9 @@
 <!-- Quick Interactive Status & Navigation Badges -->
 <p>
   <a href="#-featured-projects"><img src="https://img.shields.io/badge/PROJECTS-05070B?style=for-the-badge&logo=github&logoColor=00F5D4" alt="Projects"/></a>
-  <a href="#-tech--pm-toolkit"><img src="https://img.shields.io/badge/TOOLKIT-05070B?style=for-the-badge&logo=terminal&logoColor=38BDF8" alt="Toolkit"/></a>
-  <a href="https://github.com/veronikamoron?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-05070B?style=for-the-badge&logo=git&logoColor=A855F7" alt="Repositories"/></a>
+  <a href="#-featured-publication"><img src="https://img.shields.io/badge/CURRENT_BIOLOGY-05070B?style=for-the-badge&logo=elsevier&logoColor=38BDF8" alt="Current Biology Publication"/></a>
+  <a href="#-tech--pm-toolkit"><img src="https://img.shields.io/badge/TOOLKIT-05070B?style=for-the-badge&logo=terminal&logoColor=A855F7" alt="Toolkit"/></a>
+  <a href="https://github.com/veronikamoron?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-05070B?style=for-the-badge&logo=git&logoColor=00F5D4" alt="Repositories"/></a>
 </p>
 
 </div>
@@ -76,6 +77,26 @@ focus:
 | **🧠 NeuroGraph**<br><sub>*3D Brain Connectivity GraphRAG*</sub> | GraphRAG engine for complex multi-hop neuroscience queries (`NetworkX` + `ChromaDB` + `Gemini`) featuring an interactive **3D WebGL connectome visualization** (`Three.js`) and built-in demo simulator. | [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-05070B?style=for-the-badge&logo=vercel&logoColor=00F5D4)](https://veronikamoron.github.io/neurograph/)<br>[![Source](https://img.shields.io/badge/GITHUB_REPO-05070B?style=for-the-badge&logo=github&logoColor=A855F7)](https://github.com/veronikamoron/neurograph) |
 | **🔬 ArXivLens**<br><sub>*Academic Research Studio*</sub> | Production-grade **Hybrid RAG** (`Dense` + `BM25` + `FlashRank` re-ranking) for arXiv literature built on a 100% free-tier Gemini stack with strict, hallucination-free inline citations. | [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-05070B?style=for-the-badge&logo=streamlit&logoColor=00F5D4)](https://arxivlens-studio.streamlit.app/)<br>[![Source](https://img.shields.io/badge/GITHUB_REPO-05070B?style=for-the-badge&logo=github&logoColor=A855F7)](https://github.com/veronikamoron/arxivlens) |
 | **⚡ VC Pulse**<br><sub>*AI Pitch Deck Analyzer*</sub> | AI-powered pitch deck evaluation studio featuring multi-perspective **VC persona sparring**, structured investment scoring rubrics, and one-click Notion export. | [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-05070B?style=for-the-badge&logo=streamlit&logoColor=00F5D4)](https://pitch-deck-analyzer.streamlit.app/)<br>[![Source](https://img.shields.io/badge/GITHUB_REPO-05070B?style=for-the-badge&logo=github&logoColor=A855F7)](https://github.com/veronikamoron/ai-founders-master-konzept) |
+
+<br/>
+
+## 📄 Featured Publication
+
+> **HIGHLIGHT · PEER-REVIEWED RESEARCH (`Current Biology` · Sep 29, 2026)**
+>
+> ### *Constitutively active presynaptic release factor Unc13A prevents homeostatic sleep rebound in Drosophila*
+>
+> Shows that a constitutively active form of the Munc13-family presynaptic release factor **Unc13A** suppresses homeostatic sleep rebound after acute sleep deprivation in *Drosophila* (near-complete elimination of recovery sleep, while baseline sleep remains largely normal). A genetic modifier screen identified partial loss of **αSnap** as a potent suppressor of the reboundless phenotype of `Unc13A^WRWR`, indicating that sleep rebound depends on a balance between **SNARE complex assembly and recycling**, with active Unc13A suppressing rebound sleep by increasing presynaptic release probability and enhancing synaptic transmission.
+>
+> [![Read in Current Biology](https://img.shields.io/badge/CURRENT_BIOLOGY-05070B?style=for-the-badge&logo=elsevier&logoColor=00F5D4)](https://doi.org/10.1016/j.cub.2026.09.007) [![DOI](https://img.shields.io/badge/DOI_10.1016%2Fj.cub.2026.09.007-05070B?style=for-the-badge&logoColor=A855F7)](https://doi.org/10.1016/j.cub.2026.09.007)
+
+<details>
+<summary><code>$ cat publication_abstract.txt</code> &nbsp;<em>(verbatim abstract — click to expand)</em></summary>
+<br/>
+
+> Here, we show that a constitutively active form of the Munc13-family presynaptic release factor Unc13A suppresses homeostatic sleep rebound following acute sleep deprivation in *Drosophila*, leading to a near-complete elimination of recovery sleep, while baseline sleep remains largely normal. Through a genetic modifier screen, we identified partial loss of αSnap as a potent suppressor of the reboundless phenotype of Unc13A<sup>WRWR</sup>. These findings suggest that sleep rebound depends on a balance between SNARE complex assembly and recycling and that active Unc13A suppresses rebound sleep by increasing presynaptic release probability and subsequently enhancing synaptic transmission.
+
+</details>
 
 <div align="center">
   <img src="./assets/neural-pulse-divider.svg" alt="Neural Pulse Divider" width="100%" />
