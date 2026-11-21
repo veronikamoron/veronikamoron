@@ -16,7 +16,7 @@
 </div>
 
 ```yaml
-# ┌──[ SYSTEM_IDENTITY :: /etc/veronika/profile.yml ]──────────────────────────┐
+# /etc/veronika/profile.yml
 name:      "VERONIKA"
 roles:     ["Technical & AI Product Manager", "Technical Program Manager"]
 education: "M.Sc. Neuroscience (1.1)"
@@ -26,7 +26,6 @@ focus:
   - "Product Strategy & End-to-End Program Delivery"
   - "Agentic AI, GraphRAG & Hybrid Retrieval Pipelines"
   - "Healthcare Tech & Data-Driven Systems"
-# └────────────────────────────────────────────────────────────────────────────┘
 ```
 
 <div align="center">
@@ -36,22 +35,25 @@ focus:
 <a id="capabilities"></a>
 <img src="./assets/sec-01-capabilities.svg" alt="01 // CAPABILITIES :: PRODUCT & PROGRAM" width="100%" />
 
-```text
-┌──[ ◆ PRODUCT_MANAGEMENT ]────────────────────────────────────────────────────┐
-│  >> Requirements Engineering · PRDs · User Story Mapping · RICE · OKRs       │
-│  >> Translating ambiguous AI capabilities into clear product vision & value. │
-└──────────────────────────────────────────────────────────────────────────────┘
-
-┌──[ ◆ PROGRAM_MANAGEMENT ]────────────────────────────────────────────────────┐
-│  >> Cross-Functional Delivery · Roadmapping · Stakeholder Alignment          │
-│  >> Orchestrating technical milestones, dependencies, risk & governance.     │
-└──────────────────────────────────────────────────────────────────────────────┘
-
-┌──[ ◆ AGENTIC_AI_&_RAG_SYSTEMS ]──────────────────────────────────────────────┐
-│  >> GraphRAG · Hybrid RAG (Dense + BM25 + Re-Ranking) · Tool Calling · ReAct │
-│  >> Hands-on prototyping & evaluation pipelines in Python, FastAPI & n8n.    │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <p><strong><code>01 // PRODUCT_MANAGEMENT</code></strong></p>
+      <p>Translating ambiguous AI capabilities into clear product vision and measurable value.</p>
+      <p><sub><code>Requirements Engineering</code> · <code>PRDs</code> · <code>User Story Mapping</code> · <code>RICE</code> · <code>OKRs</code></sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <p><strong><code>02 // PROGRAM_MANAGEMENT</code></strong></p>
+      <p>Orchestrating complex, cross-functional technical initiatives from kickoff to production.</p>
+      <p><sub><code>Roadmapping</code> · <code>Stakeholder Alignment</code> · <code>Milestones</code> · <code>Risk &amp; Governance</code></sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <p><strong><code>03 // AGENTIC_AI_&amp;_RAG</code></strong></p>
+      <p>Hands-on prototyping of multi-step LLM pipelines, retrieval systems, and evaluation loops.</p>
+      <p><sub><code>GraphRAG</code> · <code>Hybrid RAG</code> · <code>Tool Calling</code> · <code>ReAct</code> · <code>Python</code> · <code>n8n</code></sub></p>
+    </td>
+  </tr>
+</table>
 
 <details>
 <summary><code>$ cat /etc/veronika/operating_principles.log</code> &nbsp;<code>[EXPAND]</code></summary>
@@ -86,31 +88,15 @@ focus:
 <a id="publication"></a>
 <img src="./assets/sec-03-publication.svg" alt="03 // PUBLICATION :: CURRENT BIOLOGY" width="100%" />
 
-```text
-┌──[ ◆ PEER-REVIEWED HIGHLIGHT :: CURRENT BIOLOGY · SEP 29, 2026 ]─────────────┐
-│                                                                              │
-│  TITLE   :: Constitutively active presynaptic release factor Unc13A          │
-│             prevents homeostatic sleep rebound in Drosophila                 │
-│  JOURNAL :: Current Biology · Sep 29, 2026                                   │
-│  DOI     :: 10.1016/j.cub.2026.09.007                                        │
-│                                                                              │
-│  FINDINGS:                                                                   │
-│  >> Constitutively active Unc13A (Munc13-family presynaptic release factor)  │
-│     suppresses homeostatic sleep rebound after acute sleep deprivation in    │
-│     Drosophila (near-complete elimination of recovery sleep; baseline sleep  │
-│     remains largely normal).                                                 │
-│  >> Genetic modifier screen identified partial loss of αSnap as a potent     │
-│     suppressor of the reboundless phenotype of Unc13A^WRWR.                  │
-│  >> Indicates sleep rebound depends on a balance between SNARE complex       │
-│     assembly and recycling, with active Unc13A increasing presynaptic        │
-│     release probability and enhancing synaptic transmission.                 │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
-
-<p>
-  <a href="https://doi.org/10.1016/j.cub.2026.09.007"><img src="https://img.shields.io/badge/READ_IN_CURRENT_BIOLOGY-05070B?style=for-the-badge&logo=elsevier&logoColor=00F5D4" alt="Read in Current Biology"/></a>
-  <a href="https://doi.org/10.1016/j.cub.2026.09.007"><img src="https://img.shields.io/badge/DOI_10.1016%2Fj.cub.2026.09.007-05070B?style=for-the-badge&logoColor=A855F7" alt="DOI"/></a>
-</p>
+> **`PEER-REVIEWED RESEARCH`** · **`CURRENT BIOLOGY`** · **`SEP 29, 2026`**
+>
+> ### *Constitutively active presynaptic release factor Unc13A prevents homeostatic sleep rebound in Drosophila*
+>
+> - **Key Finding:** A constitutively active form of the Munc13-family presynaptic release factor **Unc13A** suppresses homeostatic sleep rebound following acute sleep deprivation in *Drosophila* (near-complete elimination of recovery sleep, while baseline sleep remains largely normal).
+> - **Genetic Modifier Screen:** Identified partial loss of **αSnap** as a potent suppressor of the reboundless phenotype of `Unc13A^WRWR`.
+> - **Mechanism:** Suggests that sleep rebound depends on a balance between **SNARE complex assembly and recycling**, and that active Unc13A suppresses rebound sleep by increasing presynaptic release probability and subsequently enhancing synaptic transmission.
+>
+> [![Read in Current Biology](https://img.shields.io/badge/READ_IN_CURRENT_BIOLOGY-05070B?style=for-the-badge&logo=elsevier&logoColor=00F5D4)](https://doi.org/10.1016/j.cub.2026.09.007) [![DOI](https://img.shields.io/badge/DOI_10.1016%2Fj.cub.2026.09.007-05070B?style=for-the-badge&logoColor=A855F7)](https://doi.org/10.1016/j.cub.2026.09.007)
 
 <details>
 <summary><code>$ cat publication_abstract.txt</code> &nbsp;<code>[VERBATIM ABSTRACT // EXPAND]</code></summary>
