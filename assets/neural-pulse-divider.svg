@@ -1,0 +1,41 @@
+<svg width="900" height="32" viewBox="0 0 900 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pulseGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F5D4" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00F5D4" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#A855F7" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="pGlow" x="-10%" y="-80%" width="120%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Subtle baseline -->
+  <line x1="0" y1="16" x2="900" y2="16" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Neural / EEG Spike Waveform -->
+  <path
+    id="eegWave"
+    d="M 0 16 L 340 16 L 365 16 L 380 12 L 392 21 L 406 4 L 420 28 L 434 10 L 448 19 L 462 14 L 478 16 L 900 16"
+    stroke="url(#pulseGrad)"
+    stroke-width="1.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#pGlow)"
+    stroke-dasharray="900"
+    stroke-dashoffset="900"
+  >
+    <animate attributeName="stroke-dashoffset" values="900;0;0;-900" keyTimes="0;0.45;0.65;1" dur="4.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Traveling glowing signal dot -->
+  <circle r="3" fill="#00F5D4" filter="url(#pGlow)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M 0 16 L 340 16 L 365 16 L 380 12 L 392 21 L 406 4 L 420 28 L 434 10 L 448 19 L 462 14 L 478 16 L 900 16"/>
+  </circle>
+</svg>
