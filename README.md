@@ -1,67 +1,67 @@
 <div align="center">
 
-<!-- Animated Neural-Terminal Hero Banner -->
-<img src="./assets/hero-neural-terminal.svg" alt="Veronika — Technical & AI Product / Program Manager" width="100%" />
+<!-- Animated Cyberpunk Neural-Terminal Hero Banner -->
+<img src="./assets/hero-neural-terminal.svg" alt="VERONIKA — Technical & AI Product / Program Manager" width="100%" />
 
 <br/>
 
-<!-- Quick Interactive Status & Navigation Badges -->
+<!-- Quick Console Navigation Badges -->
 <p>
-  <a href="#-featured-projects"><img src="https://img.shields.io/badge/PROJECTS-05070B?style=for-the-badge&logo=github&logoColor=00F5D4" alt="Projects"/></a>
-  <a href="#-featured-publication"><img src="https://img.shields.io/badge/CURRENT_BIOLOGY-05070B?style=for-the-badge&logo=elsevier&logoColor=38BDF8" alt="Current Biology Publication"/></a>
-  <a href="#-tech--pm-toolkit"><img src="https://img.shields.io/badge/TOOLKIT-05070B?style=for-the-badge&logo=terminal&logoColor=A855F7" alt="Toolkit"/></a>
-  <a href="https://github.com/veronikamoron?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-05070B?style=for-the-badge&logo=git&logoColor=00F5D4" alt="Repositories"/></a>
+  <a href="#capabilities"><img src="https://img.shields.io/badge/01_CAPABILITIES-05070B?style=for-the-badge&logoColor=00F5D4" alt="Capabilities"/></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/02_PROJECTS-05070B?style=for-the-badge&logo=github&logoColor=38BDF8" alt="Projects"/></a>
+  <a href="#publication"><img src="https://img.shields.io/badge/03_CURRENT_BIOLOGY-05070B?style=for-the-badge&logo=elsevier&logoColor=A855F7" alt="Current Biology"/></a>
+  <a href="#toolkit"><img src="https://img.shields.io/badge/04_TOOLKIT-05070B?style=for-the-badge&logo=terminal&logoColor=00F5D4" alt="Toolkit"/></a>
 </p>
 
 </div>
 
----
-
 ```yaml
-# veronika@neuro-ai:~/profile.yml
-name:      "Veronika"
+# ┌──[ SYSTEM_IDENTITY :: /etc/veronika/profile.yml ]──────────────────────────┐
+name:      "VERONIKA"
 roles:     ["Technical & AI Product Manager", "Technical Program Manager"]
 education: "M.Sc. Neuroscience (1.1)"
 location:  "Berlin → Freiburg, Germany"
-mission:   "Bridging complex AI systems, clinical/user needs, and measurable business value."
+mission:   "Bridging complex AI systems, clinical/user needs, and business value."
 focus:
   - "Product Strategy & End-to-End Program Delivery"
   - "Agentic AI, GraphRAG & Hybrid Retrieval Pipelines"
   - "Healthcare Tech & Data-Driven Systems"
+# └────────────────────────────────────────────────────────────────────────────┘
 ```
 
 <div align="center">
   <img src="./assets/neural-pulse-divider.svg" alt="Neural Pulse Divider" width="100%" />
 </div>
 
-## ⚡ What I Build & Lead
+<a id="capabilities"></a>
+<img src="./assets/sec-01-capabilities.svg" alt="01 // CAPABILITIES :: PRODUCT & PROGRAM" width="100%" />
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>🎯 Product Management</h3>
-      <p>Translating ambiguous technical possibilities into clear product vision: Requirements Engineering, PRDs, User Story Mapping, RICE prioritization, OKRs, and iterative user-centric discovery.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🧭 Program Management</h3>
-      <p>Orchestrating complex, cross-functional technical initiatives from kickoff to production: Roadmapping, Stakeholder Alignment, Milestone &amp; Dependency Tracking, Risk Mitigation, and Governance.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🤖 Agentic AI &amp; RAG Systems</h3>
-      <p>Hands-on prototyping of multi-step LLM pipelines, GraphRAG, Hybrid RAG (Dense + BM25 + Re-Ranking), Tool Calling, ReAct workflows, and automated evaluation pipelines in Python &amp; n8n.</p>
-    </td>
-  </tr>
-</table>
+```text
+┌──[ ◆ PRODUCT_MANAGEMENT ]────────────────────────────────────────────────────┐
+│  >> Requirements Engineering · PRDs · User Story Mapping · RICE · OKRs       │
+│  >> Translating ambiguous AI capabilities into clear product vision & value. │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──[ ◆ PROGRAM_MANAGEMENT ]────────────────────────────────────────────────────┐
+│  >> Cross-Functional Delivery · Roadmapping · Stakeholder Alignment          │
+│  >> Orchestrating technical milestones, dependencies, risk & governance.     │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──[ ◆ AGENTIC_AI_&_RAG_SYSTEMS ]──────────────────────────────────────────────┐
+│  >> GraphRAG · Hybrid RAG (Dense + BM25 + Re-Ranking) · Tool Calling · ReAct │
+│  >> Hands-on prototyping & evaluation pipelines in Python, FastAPI & n8n.    │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
 
 <details>
-<summary><code>$ cat operating_principles.md</code> &nbsp;<em>(click to expand)</em></summary>
+<summary><code>$ cat /etc/veronika/operating_principles.log</code> &nbsp;<code>[EXPAND]</code></summary>
 <br/>
 
 ```text
-01 // SCIENCE-FIRST RIGOR     → Hypotheses, measurable KPIs, and hallucination-free evaluation over hype.
-02 // DUAL-TRACK EXECUTION    → Aligning product discovery (what & why) with program delivery (how & when).
-03 // BUILD TO UNDERSTAND     → Prototyping in Python, FastAPI & Vector DBs to speak fluently with engineering teams.
-04 // HIGH-STAKES READY       → Designing auditable, citation-grounded AI workflows suited for Healthcare & Enterprise IT.
+[01] SCIENCE-FIRST RIGOR   >> Hypotheses, measurable KPIs & hallucination-free evaluation over hype.
+[02] DUAL-TRACK EXECUTION  >> Aligning product discovery (what & why) with program delivery (how & when).
+[03] BUILD TO UNDERSTAND   >> Prototyping in Python, FastAPI & Vector DBs to speak fluently with engineering.
+[04] HIGH-STAKES READY     >> Designing auditable, citation-grounded AI suited for Healthcare & Enterprise IT.
 ```
 
 </details>
@@ -70,28 +70,50 @@ focus:
   <img src="./assets/neural-pulse-divider.svg" alt="Neural Pulse Divider" width="100%" />
 </div>
 
-## 🚀 Featured Projects
+<a id="projects"></a>
+<img src="./assets/sec-02-projects.svg" alt="02 // FEATURED_PROJECTS :: DEPLOYED" width="100%" />
 
-| Project | Architecture & Impact | Links |
+| `// SYSTEM_ID` | `// ARCHITECTURE_&_IMPACT` | `// ENDPOINTS` |
 | :--- | :--- | :--- |
-| **🧠 NeuroGraph**<br><sub>*3D Brain Connectivity GraphRAG*</sub> | GraphRAG engine for complex multi-hop neuroscience queries (`NetworkX` + `ChromaDB` + `Gemini`) featuring an interactive **3D WebGL connectome visualization** (`Three.js`) and built-in demo simulator. | [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-05070B?style=for-the-badge&logo=vercel&logoColor=00F5D4)](https://veronikamoron.github.io/neurograph/)<br>[![Source](https://img.shields.io/badge/GITHUB_REPO-05070B?style=for-the-badge&logo=github&logoColor=A855F7)](https://github.com/veronikamoron/neurograph) |
-| **🔬 ArXivLens**<br><sub>*Academic Research Studio*</sub> | Production-grade **Hybrid RAG** (`Dense` + `BM25` + `FlashRank` re-ranking) for arXiv literature built on a 100% free-tier Gemini stack with strict, hallucination-free inline citations. | [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-05070B?style=for-the-badge&logo=streamlit&logoColor=00F5D4)](https://arxivlens-studio.streamlit.app/)<br>[![Source](https://img.shields.io/badge/GITHUB_REPO-05070B?style=for-the-badge&logo=github&logoColor=A855F7)](https://github.com/veronikamoron/arxivlens) |
-| **⚡ VC Pulse**<br><sub>*AI Pitch Deck Analyzer*</sub> | AI-powered pitch deck evaluation studio featuring multi-perspective **VC persona sparring**, structured investment scoring rubrics, and one-click Notion export. | [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-05070B?style=for-the-badge&logo=streamlit&logoColor=00F5D4)](https://pitch-deck-analyzer.streamlit.app/)<br>[![Source](https://img.shields.io/badge/GITHUB_REPO-05070B?style=for-the-badge&logo=github&logoColor=A855F7)](https://github.com/veronikamoron/ai-founders-master-konzept) |
+| **`[01] NEUROGRAPH`**<br><sub>`3D BRAIN CONNECTIVITY GRAPHRAG`</sub> | `GraphRAG` engine for complex multi-hop neuroscience queries (`NetworkX` + `ChromaDB` + `Gemini`) featuring an interactive **3D WebGL connectome visualization** (`Three.js`) and built-in demo simulator. | [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-05070B?style=for-the-badge&logo=vercel&logoColor=00F5D4)](https://veronikamoron.github.io/neurograph/)<br>[![Source](https://img.shields.io/badge/SOURCE_CODE-05070B?style=for-the-badge&logo=github&logoColor=A855F7)](https://github.com/veronikamoron/neurograph) |
+| **`[02] ARXIVLENS`**<br><sub>`ACADEMIC RESEARCH STUDIO`</sub> | Production-grade **`Hybrid RAG`** (`Dense` + `BM25` + `FlashRank` re-ranking) for arXiv literature built on a 100% free-tier Gemini stack with strict, hallucination-free inline citations. | [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-05070B?style=for-the-badge&logo=streamlit&logoColor=00F5D4)](https://arxivlens-studio.streamlit.app/)<br>[![Source](https://img.shields.io/badge/SOURCE_CODE-05070B?style=for-the-badge&logo=github&logoColor=A855F7)](https://github.com/veronikamoron/arxivlens) |
+| **`[03] VC_PULSE`**<br><sub>`AI PITCH DECK ANALYZER`</sub> | AI-powered pitch deck evaluation studio featuring multi-perspective **`VC persona sparring`**, structured investment scoring rubrics, and one-click Notion export. | [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-05070B?style=for-the-badge&logo=streamlit&logoColor=00F5D4)](https://pitch-deck-analyzer.streamlit.app/)<br>[![Source](https://img.shields.io/badge/SOURCE_CODE-05070B?style=for-the-badge&logo=github&logoColor=A855F7)](https://github.com/veronikamoron/ai-founders-master-konzept) |
 
-<br/>
+<div align="center">
+  <img src="./assets/neural-pulse-divider.svg" alt="Neural Pulse Divider" width="100%" />
+</div>
 
-## 📄 Featured Publication
+<a id="publication"></a>
+<img src="./assets/sec-03-publication.svg" alt="03 // PUBLICATION :: CURRENT BIOLOGY" width="100%" />
 
-> **HIGHLIGHT · PEER-REVIEWED RESEARCH (`Current Biology` · Sep 29, 2026)**
->
-> ### *Constitutively active presynaptic release factor Unc13A prevents homeostatic sleep rebound in Drosophila*
->
-> Shows that a constitutively active form of the Munc13-family presynaptic release factor **Unc13A** suppresses homeostatic sleep rebound after acute sleep deprivation in *Drosophila* (near-complete elimination of recovery sleep, while baseline sleep remains largely normal). A genetic modifier screen identified partial loss of **αSnap** as a potent suppressor of the reboundless phenotype of `Unc13A^WRWR`, indicating that sleep rebound depends on a balance between **SNARE complex assembly and recycling**, with active Unc13A suppressing rebound sleep by increasing presynaptic release probability and enhancing synaptic transmission.
->
-> [![Read in Current Biology](https://img.shields.io/badge/CURRENT_BIOLOGY-05070B?style=for-the-badge&logo=elsevier&logoColor=00F5D4)](https://doi.org/10.1016/j.cub.2026.09.007) [![DOI](https://img.shields.io/badge/DOI_10.1016%2Fj.cub.2026.09.007-05070B?style=for-the-badge&logoColor=A855F7)](https://doi.org/10.1016/j.cub.2026.09.007)
+```text
+┌──[ ◆ PEER-REVIEWED HIGHLIGHT :: CURRENT BIOLOGY · SEP 29, 2026 ]─────────────┐
+│                                                                              │
+│  TITLE   :: Constitutively active presynaptic release factor Unc13A          │
+│             prevents homeostatic sleep rebound in Drosophila                 │
+│  JOURNAL :: Current Biology · Sep 29, 2026                                   │
+│  DOI     :: 10.1016/j.cub.2026.09.007                                        │
+│                                                                              │
+│  FINDINGS:                                                                   │
+│  >> Constitutively active Unc13A (Munc13-family presynaptic release factor)  │
+│     suppresses homeostatic sleep rebound after acute sleep deprivation in    │
+│     Drosophila (near-complete elimination of recovery sleep; baseline sleep  │
+│     remains largely normal).                                                 │
+│  >> Genetic modifier screen identified partial loss of αSnap as a potent     │
+│     suppressor of the reboundless phenotype of Unc13A^WRWR.                  │
+│  >> Indicates sleep rebound depends on a balance between SNARE complex       │
+│     assembly and recycling, with active Unc13A increasing presynaptic        │
+│     release probability and enhancing synaptic transmission.                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+<p>
+  <a href="https://doi.org/10.1016/j.cub.2026.09.007"><img src="https://img.shields.io/badge/READ_IN_CURRENT_BIOLOGY-05070B?style=for-the-badge&logo=elsevier&logoColor=00F5D4" alt="Read in Current Biology"/></a>
+  <a href="https://doi.org/10.1016/j.cub.2026.09.007"><img src="https://img.shields.io/badge/DOI_10.1016%2Fj.cub.2026.09.007-05070B?style=for-the-badge&logoColor=A855F7" alt="DOI"/></a>
+</p>
 
 <details>
-<summary><code>$ cat publication_abstract.txt</code> &nbsp;<em>(verbatim abstract — click to expand)</em></summary>
+<summary><code>$ cat publication_abstract.txt</code> &nbsp;<code>[VERBATIM ABSTRACT // EXPAND]</code></summary>
 <br/>
 
 > Here, we show that a constitutively active form of the Munc13-family presynaptic release factor Unc13A suppresses homeostatic sleep rebound following acute sleep deprivation in *Drosophila*, leading to a near-complete elimination of recovery sleep, while baseline sleep remains largely normal. Through a genetic modifier screen, we identified partial loss of αSnap as a potent suppressor of the reboundless phenotype of Unc13A<sup>WRWR</sup>. These findings suggest that sleep rebound depends on a balance between SNARE complex assembly and recycling and that active Unc13A suppresses rebound sleep by increasing presynaptic release probability and subsequently enhancing synaptic transmission.
@@ -102,9 +124,10 @@ focus:
   <img src="./assets/neural-pulse-divider.svg" alt="Neural Pulse Divider" width="100%" />
 </div>
 
-## 🛠️ Tech & PM Toolkit
+<a id="toolkit"></a>
+<img src="./assets/sec-04-toolkit.svg" alt="04 // SYSTEM_TOOLKIT :: STACK & PM" width="100%" />
 
-**`// PRODUCT & PROGRAM MANAGEMENT`**
+**`>> PRODUCT_&_PROGRAM_MANAGEMENT`**
 
 <p>
   <img src="https://img.shields.io/badge/Product_Strategy-05070B?style=for-the-badge&logoColor=A855F7" alt="Product Strategy"/>
@@ -117,7 +140,7 @@ focus:
   <img src="https://img.shields.io/badge/User_Story_Mapping-05070B?style=for-the-badge&logoColor=38BDF8" alt="User Story Mapping"/>
 </p>
 
-**`// AI, RAG & ENGINEERING`**
+**`>> AI_RAG_&_ENGINEERING`**
 
 <p>
   <img src="https://img.shields.io/badge/Python-05070B?style=for-the-badge&logo=python&logoColor=00F5D4" alt="Python"/>
@@ -131,7 +154,7 @@ focus:
   <img src="https://img.shields.io/badge/Git_%26_Bash-05070B?style=for-the-badge&logo=git&logoColor=A855F7" alt="Git & Bash"/>
 </p>
 
-**`// DATA & SCIENTIFIC COMPUTING`**
+**`>> DATA_&_SCIENTIFIC_COMPUTING`**
 
 <p>
   <img src="https://img.shields.io/badge/Power_BI-05070B?style=for-the-badge&logo=powerbi&logoColor=38BDF8" alt="Power BI"/>
@@ -142,5 +165,5 @@ focus:
 ---
 
 <div align="center">
-  <sub><code>EOF // Built with precision · Pitch-black neuro-tech aesthetic</code></sub>
+  <code>[ EOF // VERONIKA@NEURO-AI :: PITCH-BLACK CYBER CONSOLE ]</code>
 </div>
